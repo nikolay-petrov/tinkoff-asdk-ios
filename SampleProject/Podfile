@@ -4,10 +4,14 @@
 # use_frameworks!
 
 target 'ASDKSampleApp' do
-
-pod 'CardIO'
-pod 'ASDKCore', :podspec =>  "https://raw.githubusercontent.com/TinkoffCreditSystems/tinkoff-asdk-ios/master/ASDKCore.podspec"
-pod 'ASDKUI', :podspec =>  "https://raw.githubusercontent.com/TinkoffCreditSystems/tinkoff-asdk-ios/master/ASDKUI.podspec"
-
+  
+# pod 'CardIO'
+# pod 'ASDKCore', :podspec =>  "https://raw.githubusercontent.com/TinkoffCreditSystems/tinkoff-asdk-ios/master/ASDKCore.podspec"
+# pod 'ASDKUI', :podspec =>  "https://raw.githubusercontent.com/TinkoffCreditSystems/tinkoff-asdk-ios/master/ASDKUI.podspec"
+  
+  pod 'CardIO', '~> 5.4.1'
+  pod 'ASDKCore', :podspec =>  "https://raw.githubusercontent.com/nikolay-petrov/tinkoff-asdk-ios/master/ASDKCore.podspec"
+  pod 'ASDKUI', :podspec =>  "https://raw.githubusercontent.com/nikolay-petrov/tinkoff-asdk-ios/master/ASDKUI.podspec"
+  
 end
 
